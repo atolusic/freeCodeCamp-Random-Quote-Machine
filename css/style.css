@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../images/pozadina4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2000px;
+  font-family: 'Satisfy', cursive;
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+.container{
+  max-width: 450px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 3px;
+}
+.text{
+  width: 450px;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: 'Lobster Two', cursive;
+}
+.authorClass{
+  font-size: 1.2em;
+}
+#getQuotes{
+  float: right;
+  margin: 5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: rgba(240, 186, 117, 0.5);
+  font-weight: bold;
+}
+#getQuotes:hover{
+  border: 2px solid black;
+  transition: all 0.2s;
+  background: rgba(240, 186, 117, 0.8);
+  -webkit-box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
+  box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
+}
+.authorClass{
+  text-align: right;
+  padding-top: 10px;
+}
+#icon{
+  margin-right: 5px;
+}
