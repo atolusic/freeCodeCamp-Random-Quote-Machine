@@ -30,8 +30,7 @@ h1{
 .authorClass{
   font-size: 1.2em;
 }
-#getQuotes{
-  float: right;
+button{
   margin: 5px 0;
   background: none;
   border: none;
@@ -43,13 +42,20 @@ h1{
   background: rgba(240, 186, 117, 0.5);
   font-weight: bold;
 }
-#getQuotes:hover{
+#getQuotes{
+  float: right;
+}
+button:hover{
   border: 2px solid black;
   transition: all 0.2s;
   background: rgba(240, 186, 117, 0.8);
   -webkit-box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
   -moz-box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
   box-shadow: 10px 9px 21px -2px rgba(0,0,0,0.7);
+}
+#tweetButton{
+  float: left;
+  padding: 7.5px 20px;
 }
 .authorClass{
   text-align: right;
